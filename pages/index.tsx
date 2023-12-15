@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <div className={styles.nftClaim}>
           {/* First Image */}
           <div className={styles.imageContainer}>
-            <Image src={"/shoku.png"} alt="" height={300} width={350} />
+            <Image src={"/shoku.png"} alt="" height={370} width={330} />
             <Web3Button
               contractAddress={NFT_CONTRACT_ADDRESS}
               action={(contract) => contract.erc1155.claim(2, 1)}
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 
           {/* Second Image */}
           <div className={styles.imageContainer}>
-            <Image src={"/shoumi.png"} alt="" height={300} width={350} />
+            <Image src={"/shoumi.png"} alt="" height={300} width={370} />
             <Web3Button
               contractAddress={NFT_CONTRACT_ADDRESS}
               action={(contract) => contract.erc1155.claim(3, 1)}

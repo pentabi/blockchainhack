@@ -180,7 +180,7 @@
 .navIconLabel {
   font-size: 12px;
   text-align: center;
-  color: white;
+  color: rgb(15, 129, 0);
 }
 
 .loginContainer {
@@ -194,7 +194,8 @@
   display: flex;
   flex-direction: row;
   padding: 2rem;
-  align-items: center;
+  padding-bottom: 7rem;
+  align-items: flex-end;
   justify-content: center;
   height: 80vh;
 }
@@ -209,6 +210,7 @@
   width: 50%;
   padding: 0.25rem 0.5rem;
 }
+
 .nftCardContent p {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -218,9 +220,8 @@
 
 .nftCard {
   position: relative;
-  width: 47%;
+  width: 125%;
   height: 100%;
-  border-radius: 20px;
   overflow: hidden;
   background: #ffffff;
   border: none;
@@ -231,6 +232,6 @@
 .nftRow {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: space-around;
 }

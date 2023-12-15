@@ -20,7 +20,7 @@ export default function NFTs() {
 
   return (
     <div className={styles.container}>
-      <h1>NFTs</h1>
+      <h1>バッジ一覧</h1>
       <div className={styles.nftRow}>
         {ownedNFTsLoading ? (
           <p>Loading...</p>
