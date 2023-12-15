@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             action={(contract) => contract.erc1155.claim(0, 1)}
             onSuccess={() => alert("NFT Claimed!")}
           >
-            Claim NFT
+            Volunteer
           </Web3Button>
         </div>
       ) : (
