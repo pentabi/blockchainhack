@@ -1,31 +1,25 @@
 ## Getting Started
 
-**PWA Demo**
+What it does
+メリットの可視化を施すために、ゴミ拾いや植林などのボランティアを終えたらバッジ（NFT)を取得できるシステムを開発しました。取得したNFTは環境問題に重点をおいた会社などから報酬をもらうのに使用することが可能です。
 
-Showcases:
+The problem it solves
+個人にメリットが見出しづらいという問題を解決します。
 
-- Email & social auth (embedded wallets)
-- → AA wallets (ERC-4337 for signless + gasless UX)
-- → thirdweb React SDK (PWA dApp template)
+Challenges I ran into
+チーム全員ブロックチェーンという概念さえあまり知らなかったので、本当に知識ゼロからのスタートでした。もちろんNFTやコントラクトを用いたウェブサイトの開発も初めてだったので全てが新しく苦労しました。学業の方も両立するのも時間が限られていたので挑戦でした。
 
-## Environment Variables
+Technologies I used
+Email & social auth (embedded wallets)
+AA wallets (ERC-4337 for signless + gasless UX)
+thirdweb React SDK (PWA dApp template)
+Next.js
 
-To run this project, you will need to create a `clientId` and set it in an `.env.local` file. Check the `.env.example` file for the required variable name.
+How we built it
+yukiさんのpwaのプロジェクトをクローンさせていただいてそこから自分達がめざしていた形に肉付けしていく方向性で頑張りました。
 
-You can get a thridweb `clientId` from https://thirdweb.com/create-api-key. Please, make sure to enable the `Embedded Wallets` service.
+What we learned
+ゼロの状態からだったので、今回使った全てのツール、ブロックチェーンの概念、全て学びでした。
 
-## Learn More
-
-To learn more about thirdweb and Next.js, take a look at the following resources:
-
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+What's next for
+さらにブロックチェーンについて深く知り、追求し、より良いアプリをつくっていきたいです。
