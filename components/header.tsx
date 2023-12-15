@@ -5,7 +5,7 @@ export default function Header() {
     return(
         <div className={styles.header}>
             <Image src={"/sustainability-icon.jpg.webp"} alt="" height={48} width={48}/>
-            <p>Sustainable volunteering NFT PWS</p>
+            <p>サステナバッジ</p>
         </div>
     )
 };

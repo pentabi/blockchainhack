@@ -163,12 +163,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 2rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid #ffffff;
   position: fixed;
   bottom: 20px;
   left: 0;
   right: 0;
-  background: #070707;
+  background: rgb(197, 255, 187);
 }
 .navIcon {
   display: flex;
@@ -192,7 +192,7 @@
 }
 .nftClaim {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 2rem;
   align-items: center;
   justify-content: center;
@@ -222,8 +222,15 @@
   height: 100%;
   border-radius: 20px;
   overflow: hidden;
-  background: #000000;
+  background: #ffffff;
   border: none;
   border-radius: 20px;
   transition: transform 0.2s ease;
+}
+
+.nftRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
